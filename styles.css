@@ -441,7 +441,14 @@ button, input, textarea {
    CARDS FUNCTIONAL STYLING
    ========================================================================== */
 
-/* Hero */
+/* Hero & Profile Cards */
+.card-hero, .card-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
 .badge-container {
   margin-bottom: 1.2rem;
 }
@@ -1467,6 +1474,16 @@ button, input, textarea {
 /* ==========================================================================
    RESPONSIVE LAYOUT BREAKPOINTS
    ========================================================================== */
+
+/* Medium Laptops (up to 1366px) */
+@media (max-width: 1366px) {
+  .hero-title {
+    font-size: 2.0rem;
+  }
+  .bento-card {
+    padding: 2.2rem;
+  }
+}
 
 /* Tablets & Small Laptops (up to 1024px) */
 @media (max-width: 1024px) {
