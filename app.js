@@ -169,7 +169,6 @@ function renderProjects(categoryFilter = "all") {
       <div class="tile-header">
         <div class="tile-category"><i class="${iconClass}"></i></div>
         <div class="tile-actions">
-          <a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
           <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" aria-label="Live Demo" class="live-action"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
       </div>
