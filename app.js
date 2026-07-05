@@ -2,6 +2,15 @@
 const projects = [
   {
     id: 1,
+    title: "CRM Dashboard",
+    category: "js",
+    description: "An interactive Customer Relationship Management (CRM) dashboard featuring analytics panels, customer tracking grids, and key performance charts.",
+    technologies: ["JavaScript", "HTML5", "CSS3 Grid", "Charts"],
+    liveUrl: "https://ahmadmustafa-1.github.io/CRM-Dashboard/",
+    githubUrl: "https://github.com/ahmadmustafa-1/CRM-Dashboard"
+  },
+  {
+    id: 2,
     title: "Restaurant Web App",
     category: "js",
     description: "A modern restaurant landing platform featuring digital menu showcases, dining reservation workflows, and responsive layouts.",
@@ -10,7 +19,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Restaurant"
   },
   {
-    id: 2,
+    id: 3,
     title: "ApexLance Platform",
     category: "js",
     description: "A freelance service Marketplace UI tailored for browsing creative talent, managing project tiers, and client interaction.",
@@ -19,7 +28,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/ApexLance-"
   },
   {
-    id: 3,
+    id: 4,
     title: "React News Website",
     category: "react",
     description: "A dynamic news platform featuring article categories and fluid responsive layouts built with modular React components.",
@@ -28,7 +37,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1"
   },
   {
-    id: 4,
+    id: 5,
     title: "React Counter App",
     category: "react",
     description: "An interactive application demonstrating React state management, hooks, event handling, and modern UI transitions.",
@@ -37,7 +46,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1"
   },
   {
-    id: 5,
+    id: 6,
     title: "React Kohl App",
     category: "react",
     description: "A custom React component interface for layout rendering, state handling, and interactive elements.",
@@ -46,7 +55,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1"
   },
   {
-    id: 6,
+    id: 7,
     title: "Blurry Picture",
     category: "js",
     description: "Interactive project utilizing loading and scroll triggers to dynamically adjust image blurs and contrast filters.",
@@ -55,7 +64,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Blurry-Picture"
   },
   {
-    id: 7,
+    id: 8,
     title: "Canvas Drawing Board",
     category: "js",
     description: "A canvas paint sketch board built with HTML5 Canvas APIs, custom brushes, colors, and canvas resets.",
@@ -64,7 +73,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Canvas"
   },
   {
-    id: 8,
+    id: 9,
     title: "Minimal Digital Clock",
     category: "js",
     description: "A digital clock featuring dynamic colored gradients that shift continuously to match hours, minutes, and seconds.",
@@ -73,7 +82,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Clock"
   },
   {
-    id: 9,
+    id: 10,
     title: "Moving Slides Carousel",
     category: "js",
     description: "A custom slider widget built to demonstrate translation offsets, pagination, and touch/drag gestures.",
@@ -82,7 +91,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Moving-Slides"
   },
   {
-    id: 10,
+    id: 11,
     title: "Moving Words Typography",
     category: "js",
     description: "Kinetic typography engine that parses text and drives complex motion path keyframes dynamically.",
@@ -91,7 +100,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Moving-Words"
   },
   {
-    id: 11,
+    id: 12,
     title: "Sliding Pictures Gallery",
     category: "js",
     description: "An interactive grid gallery where layout modules adapt based on coordinates of cursor movement.",
@@ -100,7 +109,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Sliding-Pictures"
   },
   {
-    id: 12,
+    id: 13,
     title: "Dice Game",
     category: "js",
     description: "A local multiplayer board game engine utilizing JavaScript random number generation and dynamic DOM updates.",
@@ -109,7 +118,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Dice-Game"
   },
   {
-    id: 13,
+    id: 14,
     title: "TingDog Website",
     category: "js",
     description: "Tinder-inspired landing page built using responsive grid layouts and customized CSS theme structures.",
@@ -118,7 +127,7 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/TingDog-"
   },
   {
-    id: 14,
+    id: 15,
     title: "Virtual Drum Kit",
     category: "js",
     description: "Interactive keyboard layout binding letters to sound waves, creating a responsive virtual drum console.",
