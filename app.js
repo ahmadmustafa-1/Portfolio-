@@ -2,15 +2,6 @@
 const projects = [
   {
     id: 1,
-    title: "CRM Dashboard",
-    category: "js",
-    description: "An interactive Customer Relationship Management (CRM) dashboard featuring analytics panels, customer tracking grids, and key performance charts.",
-    technologies: ["JavaScript", "HTML5", "CSS3 Grid", "Charts"],
-    liveUrl: "https://ahmadmustafa-1.github.io/CRM-Dashboard/",
-    githubUrl: "https://github.com/ahmadmustafa-1/CRM-Dashboard"
-  },
-  {
-    id: 2,
     title: "Restaurant Web App",
     category: "js",
     description: "A modern restaurant landing platform featuring digital menu showcases, dining reservation workflows, and responsive layouts.",
@@ -19,13 +10,22 @@ const projects = [
     githubUrl: "https://github.com/ahmadmustafa-1/Restaurant"
   },
   {
-    id: 3,
+    id: 2,
     title: "ApexLance Platform",
     category: "js",
     description: "A freelance service Marketplace UI tailored for browsing creative talent, managing project tiers, and client interaction.",
     technologies: ["JavaScript", "HTML5", "Responsive UI"],
     liveUrl: "https://ahmadmustafa-1.github.io/ApexLance-/",
     githubUrl: "https://github.com/ahmadmustafa-1/ApexLance-"
+  },
+  {
+    id: 3,
+    title: "CRM Dashboard",
+    category: "js",
+    description: "An interactive Customer Relationship Management (CRM) dashboard featuring analytics panels, customer tracking grids, and key performance charts.",
+    technologies: ["JavaScript", "HTML5", "CSS3 Grid", "Charts"],
+    liveUrl: "https://ahmadmustafa-1.github.io/CRM-Dashboard/",
+    githubUrl: "https://github.com/ahmadmustafa-1/CRM-Dashboard"
   },
   {
     id: 4,
