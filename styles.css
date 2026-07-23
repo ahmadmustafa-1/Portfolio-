@@ -1437,6 +1437,36 @@ button, input, textarea {
   color: #64748b;
 }
 
+.cv-exp-item {
+  margin-bottom: 1.5rem;
+}
+
+.cv-exp-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.cv-exp-company {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #334155;
+  margin-bottom: 0.5rem;
+}
+
+.cv-exp-details {
+  padding-left: 1rem;
+}
+
+.cv-exp-details li {
+  list-style: disc;
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
 .cv-edu-item {
   margin-bottom: 1.2rem;
 }
